@@ -1,7 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
     <div id="App">
-      <div className="w-screen h-screen flex flex-row items-center justify-center text-lg">HOME</div>
+      <Outlet />
     </div>
   );
 }
